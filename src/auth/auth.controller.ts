@@ -7,8 +7,9 @@ import {
   Body,
   Param,
 } from '@nestjs/common';
+import { User } from '../model/types/user.type';
 
 @Controller('auth')
-export class Authentication {
+export class AuthController {
 
 }
