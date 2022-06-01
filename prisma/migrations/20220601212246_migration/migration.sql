@@ -1,6 +1,8 @@
 -- CreateTable
 CREATE TABLE "User" (
     "id" TEXT NOT NULL,
+    "userName" TEXT NOT NULL,
+    "mail" TEXT NOT NULL,
     "Level" INTEGER,
     "passwordHash" TEXT NOT NULL,
 

@@ -7,7 +7,7 @@ import {
   Body,
   Param,
 } from '@nestjs/common';
-import { User } from '../types/user.type';
+import { User } from './user.type';
 import { UserService } from './user.service';
 import { UserCreateDto } from './dto/user-create.dto';
 import { UserUpdateDto } from './dto/user-update.dto';
